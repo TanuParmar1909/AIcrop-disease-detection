@@ -1,0 +1,77 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Model Files
+*.h5
+*.keras
+
+# Dataset Files
+ml/data/raw/
+ml/data/processed/
+ml/data/splits/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Raw and generated datasets
+ml/data/raw/
+ml/data/processed/
+ml/data/splits/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VS Code 
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Raw and generated datasets
+ml/data/raw/
+ml/data/processed/
+ml/data/splits/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Raw dataset
+ml/data/raw/
+
+# Secrets
+.env.*

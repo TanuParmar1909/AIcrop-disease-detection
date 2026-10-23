@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+alembic
+python-multipart
+
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+pillow
+
+tensorflow
+jupyter
