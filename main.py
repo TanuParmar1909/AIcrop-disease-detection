@@ -25,7 +25,7 @@ if app_mode=='Home':
   image_path= "home_page.png"
   st.image(image_path,use_column_width=True )
   st.markdown('''
-  This is a web application that uses deep learning to detect crop diseases from images of  your crop field from each corner and center. )
+  This is a web application that uses deep learning to detect crop diseases from images of  your crop field from each corner and center. 
 ''')
 
 #about page
