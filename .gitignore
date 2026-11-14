@@ -75,3 +75,6 @@ ml/data/raw/
 
 # Secrets
 .env.*
+
+#release
+/releases/download/v1.0.0/trained_model.keras
