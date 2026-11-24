@@ -1,4 +1,20 @@
 import os
+import sys
+
+# ==========================================
+# WINDOWS DLL CONFIGURATION FOR TENSORFLOW
+# ==========================================
+if sys.platform == "win32":
+    venv_dir = os.path.dirname(os.path.dirname(sys.executable))
+    if os.path.exists(venv_dir):
+        try:
+            os.add_dll_directory(venv_dir)
+            scripts_dir = os.path.join(venv_dir, "Scripts")
+            if os.path.exists(scripts_dir):
+                os.add_dll_directory(scripts_dir)
+        except Exception:
+            pass
+
 import shutil
 import numpy as np
 from PIL import Image
